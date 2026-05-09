@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1700mm"
+   height="205mm"
+   viewBox="0 0 1700 205"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.19764263"
+     inkscape:cx="2061.8022"
+     inkscape:cy="422.4797"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="60.676739"
+       y="503.88074"
+       width="309.979"
+       height="69.910156"
+       id="rect4" />
+    <rect
+       x="133.22502"
+       y="465.62802"
+       width="557.96222"
+       height="344.27454"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#ffe600;fill-opacity:1;stroke:#02ffe8;stroke-width:13.4462;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="116.0429"
+       cy="103.65336"
+       rx="97.169731"
+       ry="90.713211" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.81027823,0,0,2.0332723,-81.399328,-906.85945)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;font-family:Magneto;-inkscape-font-specification:Magneto;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);fill:#ff2aa3;fill-opacity:1;stroke:#02ffbf;stroke-width:2.49307;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="133.22461"
+         y="524.66016"
+         id="tspan4"><tspan
+           style="stroke:#7b2cff"
+           id="tspan3">VRGS</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4"
+       style="font-size:64px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);fill:#000000;stroke:#006eb6;stroke-width:45.3392;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:91.5339px;font-family:Rockwell;-inkscape-font-specification:Rockwell;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff2aa3;fill-opacity:1;stroke:#006eb6;stroke-width:3.3;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="250.67726"
+       y="132.65137"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Rockwell;-inkscape-font-specification:Rockwell;fill:#ff2aa3;fill-opacity:1;stroke-width:3.3;stroke-dasharray:none"
+         x="250.67726"
+         y="132.65137">VASQUEZ RETRO GAME STORE</tspan></text>
+  </g>
+</svg>
