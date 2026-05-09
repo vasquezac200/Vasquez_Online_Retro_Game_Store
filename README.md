@@ -1,4 +1,5 @@
 # Vasquez Retro Game Store
+![Logo](/logo.svg)
 
 A PHP and MySQL web application for browsing, searching, and viewing retro video games. The project was built for a database course and runs locally through XAMPP.
 
@@ -55,7 +56,7 @@ vasquezrgs/
 3. Place this folder inside:
 
 ```text
-C:\Users\aidan\Desktop\xampp\htdocs\vasquezrgs
+\xampp\htdocs\vasquezrgs
 ```
 
 4. Open phpMyAdmin or another MySQL client.
