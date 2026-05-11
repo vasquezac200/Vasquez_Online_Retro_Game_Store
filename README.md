@@ -1,4 +1,5 @@
 # Vasquez Retro Game Store
+![VRGS Logo](logo.svg)
 
 A PHP and MySQL web application for browsing, searching, and viewing retro video games. The project was built for a database course and runs locally through XAMPP.
 
