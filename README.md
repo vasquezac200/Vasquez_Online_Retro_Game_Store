@@ -33,20 +33,29 @@ vasquezrgs/
 |   +-- Step4_CreateViews.sql
 |   +-- Step5_CreateProcedures&Functions.sql
 |   +-- Step6_CreateTriggers&Events.sql
++-- serverTest.php #The global server for this project.
 +-- index.html
++-- signin.html
++-- signin.php
++-- login.html
++-- login.php
 +-- games.php
 +-- searchgames.php
 +-- gameinfo.php
-+-- login.html
-+-- login.php
-+-- signin.html
-+-- signin.php
 +-- profile.php
-+-- serverTest.php
-+-- index.js
-+-- style.css
-+-- logo.svg
-+-- icon.ico
++-- logout.php
++-- cart.php
++-- cartProcess.php #Backend PHP file that adds an item from the cart.
++-- removeItemFromCart.php #Backend PHP file that removes an item from the cart.
++-- orderProcess.php
++-- orderHistory.php
++-- index.js #The only global Javascript file that controls some of the front end.
++-- style.css #The global stylist for the website.
++-- logo.svg #The vector image of the website logo.
++-- icon.ico #The website's icon.
++-- icon.svg #The website's icon as PNG format.
++-- package.json
++-- package-lock.json
 ```
 
 ## Setup
