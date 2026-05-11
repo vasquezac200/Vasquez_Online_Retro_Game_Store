@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/vasquezrgs/icon.ico" type="image/ico">
+  <title>Vasquez Retro Game Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
+  <script src="index.js" defer></script>
+  <script src="index.js?v=2" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div>
+          <img class="brand-logo" src="logo.svg" alt="The Vasquez Retro Game Store Logo">
+          <p class="version">BETA</p>
+          <p>Classic games, collector bundles, and pixel-era favorites.</p>
+        </div>
+      </div>
+
+      <nav class="nav-actions" aria-label="Account actions">
+        <a class="button secondary" id="gamesTabButton" href="/vasquezrgs/games.php">Games</a>
+        <a hidden class="button secondary" id="ordersTabButton" href="/vasquezrgs/orderHistory.php">Order History</a>
+        <a hidden class="button secondary" id="myCartTabButton" href="/vasquezrgs/cart.php">My Cart</a>
+        <a hidden class="button primary" id="myAccountTabButton" href="/vasquezrgs/profile.php">My Account</a>
+        <a hidden class="button secondary" id="loginTabButton" href="/vasquezrgs/login.html">Login</a>
+        <a hidden class="button primary" id="signinTabButton" href="/vasquezrgs/signin.html">Sign Up</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <article class="hero-panel">
+          <span class="eyebrow">Welcome Aboard!</span>
+          <h2>Play the legends that built gaming.</h2>
+          <p>
+            Welcome to the Vasquez Retro Game Store, your ultimate destination for classic gaming experiences. Dive into our curated collection of pixel-perfect titles, collector's editions, and timeless favorites from the golden era of gaming. Whether you're a seasoned retro enthusiast or new to the world of vintage games, our store offers something for everyone. Explore our selection and relive the magic of gaming's past with us. <br>  <strong>Welcome to the past of gaming!</strong>
+          </p>
+
+          <div class="hero-stats">
+            <div class="feature-chip">
+              <strong>50+</strong>
+              Retro titles
+            </div>
+            <div class="feature-chip">
+              <strong>22</strong>
+              Console eras
+            </div>
+          </div>
+        </article>
+
+        <aside class="side-panel">
+          
+
+          <div class="question-container">
+            <h3>Looking for a Retro Game?</h3>
+            <p>Use the search bar below to find your favorite classic games and collector's bundles.</p>
+            <input id="searchInput" type="text" placeholder="Search games, genres, consoles">
+
+            <a class="button secondary" href="" onclick="searchGames(event)">Search</a>
+
+            <br>
+            </div>
+
+          <div class ="signup-prompt" id="homeSignUpPrompt">
+            <h3>New to Retro Gaming?</h3>
+            <p>Sign up for an account to purchase games!</p>
+            <a class="button primary" href="/vasquezrgs/signin.html">Sign Up</a>
+          </div>
+
+        </aside>
+      </section>
+
+      
+
+
+    <footer>
+      <p>Created for a Database Project ::: The COL of Aidan Section 19</p>
+      <nav class="footer-nav"></nav>
+    </footer>
+
+    <script>
+      if (isloggedIn) { document.getElementById("homeSignUpPrompt").style.display = "none";}
+      else {document.getElementById("homeSignUpPrompt").style.display = "block";}
+    </script>
+  </div>
+</body>
+</html>

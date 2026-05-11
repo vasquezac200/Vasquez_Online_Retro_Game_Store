@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/vasquezrgs/logo.ico" type="image/ico">
+  <title>Sign In | Vasquez Retro Game Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
+  <script src="index.js"></script>
+
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div>
+          <a href="/vasquezrgs/index.html">
+            
+          <img class="brand-logo" src="logo.svg" alt="The Vasquez Retro Game Store Logo">
+          <p class="version">BETA</p>
+
+        </a>
+        </div>
+      </div>
+
+  <nav class="nav-actions" aria-label="Site navigation">
+        <a class="button secondary" id="gamesTabButton" href="/vasquezrgs/games.php">Games</a>
+        <a hidden class="button primary" id="myAccountTabButton" href="">My Account</a>
+        <a class="button primary" id="loginTabButton" href="/vasquezrgs/login.html">Login</a>
+      </nav>
+    </header>
+    <main class="auth-layout">
+      <section class="auth-panel">
+        <span class="eyebrow">Member Sign In</span>
+        <h2 class="auth-title">Welcome to the Game Club</h2>
+        <p class="auth-copy">
+          Create an account to access your retro game orders, save your favorite games, and manage your account information.
+        </p>
+
+        <form action="signin.php" method="post">
+
+        <div class="form-field">
+            <label for="fName">First Name</label>
+            <input
+              type="text"
+              id="fName"
+              name="fName"
+              placeholder="Enter your first name"
+              required
+              autocorrect="off"
+              autocomplete="username"
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="lName">Last Name</label>
+            <input
+              type="text"
+              id="lName"
+              name="lName"
+              placeholder="Enter your last name"
+              required
+              autocorrect="off"
+              autocomplete="username"
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+              autocorrect="off"
+              autocomplete="email"
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Create your username"
+              required
+              autocorrect="off"
+              autocomplete="username"
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create your password"
+              required
+              autocomplete="current-password"
+            >
+          </div>
+          <br>
+          <div class="form-row">
+            <button class="button primary" type="submit" onclick="">Create Account</button>
+          </div>
+          
+
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

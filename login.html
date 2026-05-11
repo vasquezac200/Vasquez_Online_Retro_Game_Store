@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/vasquezrgs/logo.ico" type="image/ico">
+  <title>Vasquez Retro Game Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
+  
+
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div>
+          <a href="/vasquezrgs/index.html">
+          <img class="brand-logo" src="logo.svg" alt="The Vasquez Retro Game Store Logo">
+          <p class="version">BETA</p>
+        </a>
+        </div>
+      </div>
+
+  <nav class="nav-actions" aria-label="Site navigation">
+        <a class="button secondary" href="/vasquezrgs/games.php">Games</a>
+        <a class="button primary" href="/vasquezrgs/signin.html">Sign Up</a>
+      </nav>
+    </header>
+    <main class="auth-layout">
+      <section class="auth-panel">
+        <span class="eyebrow">Member Login</span>
+        <h2 class="auth-title">Welcome back to the Game Club</h2>
+        <p class="auth-copy">
+          Enter your username and password to access your retro game orders and account information.
+        </p>
+
+        <form action="login.php" method="post">
+
+          
+
+          <div class="form-field">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter your username"
+              required
+              autocorrect="off"
+
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+
+            >
+          </div>
+
+          <br>
+
+          <div class="form-row">
+            <button class="button primary" onclick="">Login</button>
+            <script src="index.js"></script>
+          </div>
+          
+
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script>
+  
+
+  
+    // function submitLogin() {
+
+    //   let username = document.getElementById("username").value;
+    //   let password = document.getElementById("password").value;
+
+
+      
+    //   con.query(`SELECT * FROM users WHERE username = '${username}' AND password = '${password}'`, (error, results) => {
+    //     if (error) {
+    //         console.error('Query error:', error);
+    //         return;
+    //     }
+
+    //  document.getElementById("testuser").textContent = results;
+
+    // });
+
+    // }
+  </script>
+</body>
+</html>

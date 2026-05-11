@@ -1,0 +1,9 @@
+<?php
+
+session_start();
+$_SESSION['userID'] = null;
+
+header("Location: /vasquezrgs/index.html");
+
+?>
+
