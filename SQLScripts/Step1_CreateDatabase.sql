@@ -1,0 +1,1 @@
+CREATE SCHEMA `retro_game_store`;
